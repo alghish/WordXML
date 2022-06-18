@@ -5,12 +5,12 @@ using DocumentFormat.OpenXml.Wordprocessing;
 
 namespace WordXML;
 
-public class Engine
+public static class Engine
 {
-	public class Replacer
+	public static class Replacer
 	{
 
-	  public string HeaderImage(string wordFilePath, string imagePath, ref string errorMessage) 
+	  public static string HeaderImage(string wordFilePath, string imagePath, ref string errorMessage) 
 	  {
 	  	try 
 	  	{
@@ -64,7 +64,7 @@ public class Engine
 	  	return "Success";
 	  }
 
-	  public string FooterImage(string wordFilePath, string imagePath, ref string errorMessage) 
+	  public static string FooterImage(string wordFilePath, string imagePath, ref string errorMessage) 
 	  {
 	  	try 
 	  	{
@@ -118,7 +118,7 @@ public class Engine
 	  	return "Success";
 	  }
 
-	  public string CopyContentController(string sourceWordFilePath, string destinationWordFilePath, ref string errorMessage) 
+	  public static string CopyContentController(string sourceWordFilePath, string destinationWordFilePath, ref string errorMessage) 
 	  {
 	  	try 
 	  	{
@@ -194,10 +194,10 @@ public class Engine
 	  }
 	}
 
-	public class Remover 
+	public static class Remover 
 	{
 	  
-	  public string FooterImageRemover(string wordFilePath, ref string errorMessage) 
+	  public static string FooterImageRemover(string wordFilePath, ref string errorMessage) 
 	  {
 	  	
 	  	try 

@@ -6,13 +6,13 @@
     <Nullable>enable</Nullable>
     <WarningLevel>0</WarningLevel>
     <PackageId>WordXML.Utilities.Engine</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Mohamad Alghosh</Authors>
     <Company>Alghosh</Company>
     <Description>Library for processing word header , footer, content controller</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Word, Bookmark, Header, Footer</PackageTags>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/alghish/WordXML.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
